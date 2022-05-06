@@ -10,12 +10,14 @@ app.use(koaBody());
 let items = require('./routes/Items.js');
 let customers = require('./routes/customers.js');
 let traders = require('./routes/Traders.js');
+let cart = require('./routes/Cart.js');
 
 
 //Use routes
 app.use(items.routes());
 app.use(customers.routes());
 app.use(traders.routes());
+app.use(cart.routes());
 
 
 app.listen(5000);
