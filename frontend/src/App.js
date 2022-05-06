@@ -1,6 +1,7 @@
 import React from "react";
-import App from "./App"
+//import App from "./App"
 import Header from "./components/Header";
+import { Route, Routes } from "react-router-dom";
 
 
 function App() {
@@ -9,6 +10,9 @@ function App() {
         <header>
            <Header />
         </header>
+        <Routes>
+
+        </Routes>
         </React.Fragment>
 
     );
