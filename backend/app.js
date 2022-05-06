@@ -1,9 +1,11 @@
 const Koa = require('koa');
 const koaBody = require('koa-body');
+const cors = require("cors");
 
 const app = new Koa();
 
 //middleware
+app.use(cors());
 app.use(koaBody());
 
 //Require routes
