@@ -8,10 +8,12 @@ app.use(koaBody());
 
 //Require routes
 let items = require('./routes/Items.js');
+let customers = require('./routes/customers.js');
 
 
 //Use routes
 app.use(items.routes());
+app.use(customers.routes());
 
 
 app.listen(5000);
