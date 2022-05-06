@@ -2,6 +2,9 @@ import React from "react";
 //import App from "./App"
 import Header from "./components/Header";
 import { Route, Routes } from "react-router-dom";
+import Home from "./components/Home";
+import AddItem from "./components/Item/AddItem";
+import Items from "./components/Item/Items";
 
 
 function App() {
