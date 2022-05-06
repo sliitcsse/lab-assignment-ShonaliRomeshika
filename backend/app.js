@@ -7,9 +7,11 @@ const app = new Koa();
 app.use(koaBody());
 
 //Require routes
+let items = require('./routes/Items.js');
 
 
 //Use routes
+app.use(items.routes());
 
 
 app.listen(5000);
