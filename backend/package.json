@@ -1,0 +1,26 @@
+{
+  "name": "lab-assignment-shonaliromeshika",
+  "version": "1.0.0",
+  "description": "Lab assignment of AF module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sliitcsse/lab-assignment-ShonaliRomeshika.git"
+  },
+  "author": "Romeshika H.D.S (IT20144326)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sliitcsse/lab-assignment-ShonaliRomeshika/issues"
+  },
+  "homepage": "https://github.com/sliitcsse/lab-assignment-ShonaliRomeshika#readme",
+  "dependencies": {
+    "koa": "^2.13.4",
+    "koa-body": "^5.0.0",
+    "koa-router": "^10.1.1",
+    "nodemon": "^2.0.16"
+  }
+}
