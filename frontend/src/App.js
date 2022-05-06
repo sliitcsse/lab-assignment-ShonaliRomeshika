@@ -10,9 +10,13 @@ function App() {
         <header>
            <Header />
         </header>
+        <main>
         <Routes>
-
+          <Route path="/" element={<Home />} exact />
+          <Route path="/addItem" element={<AddItem />} exact />
+          <Route path="/items" element={<Items />} exact />
         </Routes>
+        </main>
         </React.Fragment>
 
     );
